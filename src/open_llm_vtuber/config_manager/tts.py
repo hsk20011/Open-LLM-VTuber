@@ -151,11 +151,16 @@ class EdgeTTSConfig(I18nMixin):
     """Configuration for Edge TTS."""
 
     voice: str = Field(..., alias="voice")
+    rate: str = Field("+0%", alias="rate")
 
     DESCRIPTIONS: ClassVar[Dict[str, Description]] = {
         "voice": Description(
             en="Voice name to use for Edge TTS (use 'edge-tts --list-voices' to list available voices)",
             zh="Edge TTS 使用的语音名称（使用 'edge-tts --list-voices' 列出可用语音）",
+        ),
+        "rate": Description(
+            en="Speech rate adjustment (e.g., '+50%' for faster, '-30%' for slower, '+0%' for normal)",
+            zh="语速调整（如 '+50%' 加快，'-30%' 减慢，'+0%' 正常）",
         ),
     }
 
