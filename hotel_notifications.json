@@ -1,0 +1,22 @@
+[
+  {
+    "ticket_number": "TKT-20251127004850",
+    "timestamp": "2025-11-27T00:48:50.217193",
+    "reason": "Guest wants to check in",
+    "guest_language": "Korean",
+    "priority": "normal",
+    "location": "Front Desk Kiosk",
+    "additional_info": "",
+    "status": "pending"
+  },
+  {
+    "ticket_number": "TKT-20251127225628",
+    "timestamp": "2025-11-27T22:56:28.003485",
+    "reason": "로비에서 초파리 발견 - 시설 위생 문제",
+    "guest_language": "Korean",
+    "priority": "high",
+    "location": "Front Desk Kiosk",
+    "additional_info": "로비 구역에 초파리 다수 발견, 커피 찌꺼기 관련 위생 문제",
+    "status": "pending"
+  }
+]

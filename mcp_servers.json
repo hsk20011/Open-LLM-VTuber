@@ -2,11 +2,12 @@
     "mcp_servers": {
       "time": {
         "command": "uvx",
-        "args": ["mcp-server-time", "--local-timezone=Asia/Shanghai"]
+        "args": ["mcp-server-time", "--local-timezone=Asia/Seoul"]
       },
-      "ddg-search": {
-        "command": "uvx",
-        "args": ["duckduckgo-mcp-server"]
+      "hotel-staff": {
+        "command": "python",
+        "args": ["hotel_staff_notification.py"],
+        "cwd": "."
       }
     }
 }
